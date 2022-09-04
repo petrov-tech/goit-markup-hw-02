@@ -212,15 +212,20 @@ body {
   font-style: inherit;
 }
 
-.adress-link,
-.contact-link {
+.adress-link { 
   font-size: 14px;
   line-height: 1.71;
   color: var(--white-color);
   text-decoration: none;
 }
 
+.contact-link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 
+  
 /* portfolio html */
 
 .main {
