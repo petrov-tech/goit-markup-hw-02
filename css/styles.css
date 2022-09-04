@@ -44,9 +44,6 @@ body {
   list-style: none;
 }
 
-.link {
-  text-decoration: none;
-}
 
 /* site nav */
 
@@ -60,6 +57,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -77,6 +75,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 
 .contact .links:hover,
@@ -205,6 +204,7 @@ body {
 }
 
 .contact-link {
+  color: rgba(255, 255, 255, 0.6);
   text-decoration-line: none;
 }
 
@@ -217,11 +217,9 @@ body {
   font-size: 14px;
   line-height: 1.71;
   color: var(--white-color);
+  text-decoration: none;
 }
 
-.contact-link {
-  color: rgba(255, 255, 255, 0.6);
-}
 
 /* portfolio html */
 
