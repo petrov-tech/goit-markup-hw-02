@@ -196,7 +196,7 @@ body {
 }
 
 .second {
-  color: var(--white-color);
+  color: var(--background-main-color);
 }
 
 .secondary {
@@ -204,7 +204,6 @@ body {
 }
 
 .contact-link {
-  color: rgba(255, 255, 255, 0.6);
   text-decoration-line: none;
 }
 
@@ -212,20 +211,19 @@ body {
   font-style: inherit;
 }
 
-.adress-link { 
+.adress-link {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--white-color);
-  text-decoration: none;
+  text-decoration-line: none;
+  color: var(--background-main-color);
 }
 
 .contact-link {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
+}
 
-  
 /* portfolio html */
 
 .main {
